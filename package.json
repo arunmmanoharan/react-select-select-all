@@ -1,0 +1,38 @@
+{
+  "name": "react-select-select-all",
+  "version": "1.0.0",
+  "description": "A Select-All feature component built on top of React-Select",
+  "main": "dist/index.js",
+  "scripts": {
+    "prepublishOnly": "babel ./src --out-dir ./dist -s inline"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a2441918/react-select-select-all.git"
+  },
+  "keywords": [
+    "react-select"
+  ],
+  "author": "Arun Manohar Manoharan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/a2441918/react-select-select-all/issues"
+  },
+  "homepage": "https://github.com/a2441918/react-select-select-all#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.5.0",
+    "@babel/core": "^7.5.4",
+    "@babel/preset-env": "^7.5.4",
+    "@babel/preset-react": "^7.0.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-select": "^3.0.4"
+  },
+  "peerDependencies": {
+    "react": "^16.8.6",
+    "react-select": "^3.0.4"
+  },
+  "files": [
+    "dist/*"
+  ]
+}
